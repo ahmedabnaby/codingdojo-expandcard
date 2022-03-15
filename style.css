@@ -17,6 +17,7 @@ body {
 .container {
   display: flex;
   width: 90vw;
+  margin-top: 5%;
 }
 
 .panel {
@@ -51,6 +52,13 @@ body {
   transition: opacity 0.3s ease-in 0.4s;
 }
 
+.logo-img
+{
+  position: absolute;
+  top: -30px;
+  width: 10%;
+}
+
 @media (max-width: 480px) {
   .container {
     width: 100vw;
@@ -59,5 +67,9 @@ body {
   .panel:nth-of-type(4),
   .panel:nth-of-type(5) {
     display: none;
+  }
+  .logo-img
+  {
+    width: 20%;
   }
 }
